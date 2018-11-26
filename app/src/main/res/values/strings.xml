@@ -13,4 +13,10 @@
     <string name="title_activity_app">App</string>
     <string name="letra">0</string>
     <string name="letra2">0</string>
+    <string name="html_string_detalle">HTML@string/detalle</string>
+   
+
+
+
+
 </resources>

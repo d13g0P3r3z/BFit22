@@ -75,7 +75,7 @@ public class ImcActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         //Acceder al segundo activity y mandarle un string
-                        Intent intent = new Intent(ImcActivity.this, SobrePesoActivity.class);
+                        Intent intent = new Intent(ImcActivity.this, ObesidadActivity.class);
 
                         startActivity(intent);
                     }
