@@ -5,6 +5,7 @@ import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
+import android.hardware.SensorEventListener2;
 import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,11 +21,11 @@ public class MainActivityPodometro extends AppCompatActivity implements SensorEv
     SensorManager sensorManager;
     Button btreinicio;
 
-
     boolean running=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_podometro);
 
@@ -54,6 +55,7 @@ public class MainActivityPodometro extends AppCompatActivity implements SensorEv
         running=true;
         Sensor countSensor=sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
         if(countSensor!=null){
+           
             sensorManager.registerListener(this,countSensor,sensorManager.SENSOR_DELAY_FASTEST);
         }else{
             Toast.makeText(this,"Sensor not found", Toast.LENGTH_SHORT).show();
@@ -84,6 +86,17 @@ public class MainActivityPodometro extends AppCompatActivity implements SensorEv
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
+    public void Stop(){
+        running=false;
+        sensorManager.unregisterListener(this);
+    }
+    public void Start(){
+        running=true;
+        Sensor countSensor=sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
+        sensorManager.registerListener(this,countSensor,sensorManager.SENSOR_DELAY_FASTEST);
+
+
+    }
 public void reinit(View v){
 
 
@@ -92,7 +105,7 @@ public void reinit(View v){
 
         @Override
         public void onClick(View view) {
-            Sensor countSensor=sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
+
 
             tv_steps.setText(String.valueOf(0));
             tv_calorias.setText(String.valueOf(0));
