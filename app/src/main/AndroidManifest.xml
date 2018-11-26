@@ -24,7 +24,8 @@
         <activity android:name=".NormalActivity" />
         <activity android:name=".BajoPesoActivity" />
         <activity android:name=".RutinaAleatoria" />
-        <activity android:name=".MainActivityPodometro"></activity>
+        <activity android:name=".MainActivityPodometro" />
+        <activity android:name=".MePicaUnHuevo"></activity>
     </application>
 
 </manifest>
