@@ -75,7 +75,7 @@ public class MainActivityPodometro extends AppCompatActivity implements SensorEv
     public void onSensorChanged(SensorEvent event) {
         if (running) {
             tv_steps.setText(String.valueOf(event.values[0]));
-            tv_calorias.setText(String.valueOf(event.values[0] *49.4));
+            tv_calorias.setText(String.valueOf(event.values[0] *.045));
 
         }
 
