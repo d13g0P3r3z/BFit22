@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImcActivity">
+
+    <TextView
+        android:id="@+id/textViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-34dp" />
+
+    <Button
+        android:id="@+id/buttonImc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#000"
+        android:onClick="calcular"
+        android:text="CALCULAR IMC"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/resultadito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000"
+
+        android:textSize="15dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="264dp" />
+
+    <TextView
+        android:id="@+id/textimc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_centerVertical="true"
+
+        android:layout_marginStart="0dp"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="100dp"
+
+        android:text="Coloca tu peso: "
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="150dp"
+        android:text="Coloca tu altura en metros: "
+        android:textColor="#000"
+
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:textColor="#000"
+
+        android:layout_marginEnd="39dp"
+        android:text="Coloca tus datos y presiona 2 veces el botón" />
+
+
+    <Switch
+        android:id="@+id/switchSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="186dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="Hombre" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/switchSexo"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@+id/switchSexo"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:text="Mujer" />
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="79dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-1dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+</RelativeLayout>

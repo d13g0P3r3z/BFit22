@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BFit</string>
+    <string name="inicio_de_sesi_n">Inicio de sesión</string>
+ 
+    <string name="pesito">Ingresa tu peso en kg</string>
+    <string name="alturita">Ingresa tu altura en cm</string>
+    <string name="botoncalcular">Calcular IMC</string>
+    <string name="botonlimpiar">Limpiar</string>
+    <string name="vistaimc">IMC</string>
+    <string name="vistatip">TIP</string>
+    <string name="botongo">GO</string>
+    <string name="reinicio">REINICIAR</string>
+    <string name="title_activity_app">App</string>
+    <string name="letra">0</string>
+    <string name="letra2">0</string>
+</resources>

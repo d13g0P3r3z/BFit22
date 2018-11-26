@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".PrincipalActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="¿Qué vamos a hacer hoy?"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="241dp"
+
+                android:layout_height="42dp"
+                android:layout_above="@+id/textView4"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="145dp"
+                android:layout_marginBottom="-50dp"
+                android:text="¡Hola!"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonImc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="102dp"
+                android:text="Calcular IMC"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignTop="@+id/buttonImc"
+                android:layout_centerHorizontal="true"
+                android:text="Rutina Aleatoria"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignTop="@+id/buttonImc"
+                android:layout_alignEnd="@+id/textView5"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="2dp"
+                android:text="Podometro"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="223dp"
+                android:text="En Bfit, somos una empresa comprometida con la salud de nuestros clientes, por ello contamos con los mejores estándares de calidad, seguido de los mejores entrenadores certificados y en constante capacitación para así asegurar que tu entrenamiento con nosotros, sea una de las mejores experiencias en tu día"
+
+
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView8"
+
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="169dp"
+                android:text="¿Quiénes somos?"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="421dp"
+                android:layout_height="123dp"
+                android:layout_below="@+id/textView5"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-38dp"
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@mipmap/pruebita1" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="138dp"
+                android:layout_marginBottom="0dp"
+                android:text="TextView" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
