@@ -54,41 +54,44 @@
 
             <Button
                 android:id="@+id/buttonImc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
 
 
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="102dp"
-                android:text="Calcular IMC"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="111dp"
+                android:background="@mipmap/btnmeba"
+                android:text="           "
                 android:textSize="12dp" />
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
 
 
                 android:layout_alignTop="@+id/buttonImc"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="121dp"
-                android:layout_marginTop="2dp"
-                android:text="Rutina Aleatoria"
+                android:layout_marginStart="136dp"
+                android:layout_marginTop="-2dp"
+                android:background="@mipmap/rutina"
+                android:text="             "
                 android:textSize="12dp" />
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
 
 
                 android:layout_alignTop="@+id/buttonImc"
                 android:layout_alignEnd="@+id/textView5"
-                android:layout_marginTop="4dp"
-                android:layout_marginEnd="-20dp"
-                android:text="Podometro"
+                android:layout_marginTop="-2dp"
+                android:layout_marginEnd="-38dp"
+                android:background="@mipmap/podometro"
+                android:text="          "
                 android:textSize="12dp" />
 
 
@@ -113,9 +116,10 @@
                 android:layout_width="wrap_content"
 
                 android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView43"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="169dp"
                 android:text="¿Quiénes somos?"
                 android:textColor="@color/colorPrimary"
@@ -138,13 +142,13 @@
                 android:id="@+id/textView6"
                 android:layout_width="310dp"
                 android:layout_height="wrap_content"
-                android:textColor="#000"
                 android:layout_alignStart="@+id/textView5"
                 android:layout_alignTop="@+id/textView7"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="-4dp"
                 android:layout_marginTop="55dp"
-                android:text="Por definición “el entrenamiento funcional” significa entrenar con un propósito, un entrenamiento para que sirva.  Es una metodología de entreno se basa en realizar ejercicios y movimientos que nos ayuden a desempeñar tareas funcionales, de manera que busca esa utilidad para el usuario.  El entrenamiento funcional pretende trabajar los músculos mediante la imitación de nuestra cotidianidad, para ello cada rutina funcional va a estar focalizada para cada persona y sus características concretas." />
+                android:text="Por definición “el entrenamiento funcional” significa entrenar con un propósito, un entrenamiento para que sirva.  Es una metodología de entreno se basa en realizar ejercicios y movimientos que nos ayuden a desempeñar tareas funcionales, de manera que busca esa utilidad para el usuario.  El entrenamiento funcional pretende trabajar los músculos mediante la imitación de nuestra cotidianidad, para ello cada rutina funcional va a estar focalizada para cada persona y sus características concretas."
+                android:textColor="#000" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -173,13 +177,14 @@
 
             <Button
                 android:id="@+id/button5"
-                android:layout_width="73dp"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="159dp"
-                android:layout_marginEnd="30dp"
-                android:text="Spinner" />
+                android:layout_marginEnd="22dp"
+                android:background="@mipmap/spinner"
+                android:text="         " />
 
 
         </RelativeLayout>
