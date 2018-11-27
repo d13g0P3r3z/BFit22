@@ -18,8 +18,6 @@ public class PrincipalActivity extends AppCompatActivity {
         TextView txt = (TextView) findViewById(R.id.editTextName);
         Button imc = (Button) findViewById(R.id.buttonImc) ;
         Button podometro=(Button) findViewById(R.id.button3);
-        Button randomRoutine = (Button) findViewById(R.id.randomRoutine);
-
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             String greeter = bundle.getString("greeter");
@@ -49,17 +47,6 @@ public class PrincipalActivity extends AppCompatActivity {
                 startActivity(intent2);
             }
         });
-
-        randomRoutine.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent3 = new Intent(PrincipalActivity.this, RutinaAleatoria.class);
-
-                startActivity(intent3);
-            }
-        });
-
-
 
 
     }
