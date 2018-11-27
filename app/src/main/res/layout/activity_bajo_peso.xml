@@ -21,38 +21,72 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txtTitle"
-                android:layout_width="307dp"
-                android:layout_height="108dp"
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="13dp"
-                android:text="Plan alimenticio para personas con un índice inferior al normal:"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="108dp"
+                android:autoText="false"
+                android:text="
+        -Desayuno:
+        3 claras de huevo
+        revueltas
+        con verduras al gusto
+        1 calabaza asada
+        2 tortillas de nopal
+
+        -Colación:
+        1 gelatina light
+        4 almendras
+        1 pz fruta
+
+        -Comida:
+        1/2 tz de arroz o pasta integral
+        1 porción pequeña de pollo, carne
+        o pescado a la plancha
+        1 plato de verduras al vapor
+        -Colación:
+        1 pz de fruta
+        4 almendras
+
+        -Cena:
+        1 porción pequeña de pollo,
+        carne o pescado a la plancha
+        1/2 aguacate
+
+
+
+        -Recomendaciones:
+        1. Prefiere las carnes blancas
+        (pechuga o pescado) sobre las
+        carnes rojas.
+        2. Trata de consumir como máximo carne
+        2 veces por semana.
+        3. Trata de consumir 3 litros de
+        agua al día.
+        4. Prefiere siempre las tortillas
+        de maiz sobre las de harinas y
+        el pan integral sobre el blanco.
+
+        "
                 android:textColor="#000"
-                android:textSize="27dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="39dp"
+                android:text="Plan alimenticio en rango bajo"
+                android:textColor="#000"
+                android:textSize="22dp"
                 android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="296dp"
-                android:layout_height="503dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="124dp"
-                android:layout_marginEnd="84dp"
-                app:srcCompat="@mipmap/flacos1" />
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="365dp"
-                android:layout_height="343dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_centerInParent="true"
-                android:layout_marginTop="640dp"
-                android:layout_marginEnd="6dp"
-                app:srcCompat="@mipmap/recome2" />
-
 
         </RelativeLayout>
 
