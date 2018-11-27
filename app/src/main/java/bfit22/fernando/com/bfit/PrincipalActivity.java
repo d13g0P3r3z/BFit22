@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class PrincipalActivity extends AppCompatActivity {
     private Button imc;
     private Button podometro;
+    private Button spinner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,7 @@ public class PrincipalActivity extends AppCompatActivity {
         TextView txt = (TextView) findViewById(R.id.editTextName);
         Button imc = (Button) findViewById(R.id.buttonImc) ;
         Button podometro=(Button) findViewById(R.id.button3);
+        Button spinner=(Button)findViewById(R.id.button5);
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             String greeter = bundle.getString("greeter");
@@ -45,6 +47,15 @@ public class PrincipalActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(PrincipalActivity.this, MainActivityPodometro.class);
 
                 startActivity(intent2);
+            }
+        });
+        spinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Acceder al segundo activity y mandarle un string
+                Intent intent3 = new Intent(PrincipalActivity.this, SpinnerActivity.class);
+
+                startActivity(intent3);
             }
         });
 
