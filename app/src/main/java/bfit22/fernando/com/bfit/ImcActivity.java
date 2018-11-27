@@ -33,7 +33,7 @@ public class ImcActivity extends AppCompatActivity {
 
             EditText w = (EditText) findViewById(R.id.peso);
             EditText h = (EditText) findViewById(R.id.altura);
-            TextView a = (TextView) findViewById(R.id.resultadito);
+
             TextView i = (TextView) findViewById(R.id.textimc);
 
 
