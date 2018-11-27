@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/proagaayv2"
 
     tools:context=".LoginActivity">
 
@@ -11,11 +12,14 @@
         android:id="@+id/editTextName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextEmail"
         android:layout_alignStart="@+id/editTextEmail"
-        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
 
         android:ems="10"
-        android:hint="Nombre" />
+        android:hint="Nombre"
+        android:textColor="#000"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -23,10 +27,13 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/editTextPass"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="188dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="211dp"
         android:ems="10"
         android:hint=" Correo electrónico"
         android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="232dp" />
 
@@ -36,11 +43,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="83dp"
-        android:layout_marginBottom="130dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="166dp"
         android:ems="10"
+
         android:hint="Contraseña"
         android:inputType="textPassword"
+        android:textColor="#000"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="352dp" />
 
@@ -50,12 +60,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
-        android:textSize="25dp"
+        android:layout_marginTop="174dp"
+        android:text="@string/inicio_de_sesi_n"
 
-        android:textColor="#000"
-        android:textStyle="bold"
-        android:text="@string/inicio_de_sesi_n" />
+
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonMain"
@@ -63,19 +74,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="62dp"
         android:text="Iniciar sesión"
 
         />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="297dp"
-        android:layout_height="192dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="81dp"
-        app:srcCompat="@drawable/logo" />
 
 
 </RelativeLayout>
