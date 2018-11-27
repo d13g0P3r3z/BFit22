@@ -25,7 +25,24 @@
         <activity android:name=".BajoPesoActivity" />
         <activity android:name=".RutinaAleatoria" />
         <activity android:name=".MainActivityPodometro" />
-        <activity android:name=".MePicaUnHuevo"></activity>
+        <activity android:name=".MePicaUnHuevo" />
+        <activity android:name=".Agua" />
+        <activity android:name=".Caramelos" />
+        <activity android:name=".Cebolla" />
+        <activity android:name=".Chayote" />
+        <activity android:name=".Chelas" />
+        <activity android:name=".Chile" />
+        <activity android:name=".Chocolate" />
+        <activity android:name=".Coca_Cola" />
+        <activity android:name=".Galletas" />
+        <activity android:name=".Limonada" />
+        <activity android:name=".Manzana" />
+        <activity android:name=".Naranja" />
+        <activity android:name=".Platano" />
+        <activity android:name=".Tomate" />
+        <activity android:name=".Uva" />
+        <activity android:name=".Sabritas" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

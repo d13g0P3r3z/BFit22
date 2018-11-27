@@ -97,11 +97,11 @@
                 android:layout_height="118dp"
                 android:layout_alignParentStart="true"
 
-                android:layout_centerVertical="true"
                 android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
                 android:layout_marginStart="31dp"
                 android:layout_marginTop="223dp"
-                android:text="En Bfit, somos una empresa comprometida con la salud de nuestros clientes, por ello contamos con los mejores estándares de calidad, seguido de los mejores entrenadores certificados y en constante capacitación para así asegurar que tu entrenamiento con nosotros, sea una de las mejores experiencias en tu día"
+                android:text="En Bfit, somos una empresa comprometida con la salud de nuestros clientes, por ello contamos con los mejores estándares de calidad, seguido de los mejores entrenadores certificados y en constante capacitación para así asegurar que tu entrenamiento con nosotros, sea una de las mejores experiencias en tu día."
 
 
                 android:textColor="#000" />
