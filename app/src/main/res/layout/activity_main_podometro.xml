@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/backsteps2"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivityPodometro"
     tools:layout_editor_absoluteY="81dp">
 
@@ -17,11 +17,19 @@
         android:layout_height="wrap_content"
         android:text="Pasos" />
 
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="40dp"
+        android:layout_height="61dp"
+
+        android:gravity="left|center"
+        app:srcCompat="@drawable/pie" />
+
     <TextView
         android:id="@+id/tv_steps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+
         android:inputType="number"
         android:text="@string/letra"
         android:textSize="50dp" />
@@ -32,11 +40,17 @@
         android:layout_height="wrap_content"
         android:text="Calorías quemadas" />
 
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="75dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/llamas" />
+
     <TextView
         android:id="@+id/tv_calories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+
         android:inputType="numberDecimal"
         android:text="@string/letra2"
         android:textSize="50dp" />
@@ -45,9 +59,8 @@
         android:id="@+id/btnReinicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+
         android:onClick="reinit"
-        android:text="reinicio"
-        />
+        android:text="reinicio" />
 
 </LinearLayout>
