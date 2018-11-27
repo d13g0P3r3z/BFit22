@@ -18,6 +18,7 @@ public class PrincipalActivity extends AppCompatActivity {
         TextView txt = (TextView) findViewById(R.id.editTextName);
         Button imc = (Button) findViewById(R.id.buttonImc) ;
         Button podometro=(Button) findViewById(R.id.button3);
+        Button random = (Button) findViewById(R.id.button2);
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             String greeter = bundle.getString("greeter");
@@ -48,7 +49,15 @@ public class PrincipalActivity extends AppCompatActivity {
             }
         });
 
+        random.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Acceder al segundo activity y mandarle un string
+                Intent intent3 = new Intent(PrincipalActivity.this, RutinaAleatoria.class);
 
+                startActivity(intent3);
+            }
+        });
     }
 
     public void imc(){
