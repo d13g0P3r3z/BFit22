@@ -4,19 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondoimcc"
+    android:background="@drawable/fondoimc"
+
     tools:context=".ImcActivity">
 
     <TextView
         android:id="@+id/textViewMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000"
-
-
-        android:background="@null"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-34dp" />
+
+
+        android:layout_marginBottom="-34dp"
+        android:background="@null"
+        android:contentDescription="*Coloca tus datos y presiona 2 veces el boton Calcular IMC."
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:text="*Coloca tus datos y presiona 2 veces el boton Calcular IMC." />
 
     <Button
         android:id="@+id/buttonImc"
@@ -54,8 +57,7 @@
         android:layout_marginTop="203dp"
 
         android:text="Coloca tu peso: "
-        android:textColor="#000"
-        android:textSize="15dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/textView3"
@@ -91,7 +93,8 @@
 
         android:layout_alignBaseline="@+id/textView2"
         android:layout_alignStart="@+id/altura"
-        android:layout_marginStart="9dp"
+        android:layout_marginStart="4dp"
+        android:background="@mipmap/vacio"
         android:ems="10"
         android:inputType="numberDecimal" />
 
@@ -103,38 +106,52 @@
 
         android:layout_alignBottom="@+id/resultadito"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="62dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="-35dp"
+        android:background="@mipmap/vacio"
         android:ems="10"
         android:inputType="numberDecimal" />
 
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/peso"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="199dp">
+        android:layout_marginStart="-99dp"
+        android:layout_marginTop="293dp">
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textimc"
-        android:layout_marginEnd="-60dp"
-        android:layout_marginBottom="-1dp"
-        android:layout_toStartOf="@+id/peso"
-        android:text="Mujer" />
+        <RadioButton
+            android:id="@+id/radioButton1"
 
-    <RadioButton
-        android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textimc"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toStartOf="@+id/radioButton"
+            android:text="Hombre" />
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textimc"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="0dp"
-        android:layout_toStartOf="@+id/radioButton"
-        android:text="Hombre" />
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textimc"
+            android:layout_marginEnd="-60dp"
+            android:layout_marginBottom="-1dp"
+            android:layout_toStartOf="@+id/peso"
+            android:text="Mujer" />
+
     </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/logo" />
 
 
 </RelativeLayout>
