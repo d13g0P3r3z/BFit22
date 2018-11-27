@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".WelcomeActivity">
 
     <TextView
@@ -12,9 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="211dp"
-        android:text="¡Bienvenido!"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="53dp"
+        android:text="Bfit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#000"
         android:textSize="45dp"
         android:textStyle="bold" />
@@ -32,25 +36,25 @@
         android:textColor="#FFF" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:layout_width="240dp"
+        android:layout_height="249dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="18dp"
-        app:srcCompat="@mipmap/logo" />
+        android:layout_centerInParent="true"
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="98dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="301dp"
+        android:layout_height="63dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="191dp"
-        android:text="Gracias por ser parte de nuestra familia."
-        android:textColor="#000"
-        android:textAlignment="center"
-        android:textSize="20dp" />
+        android:layout_marginBottom="46dp"
+        app:srcCompat="@mipmap/btnempecemossss" />
+
 
 </RelativeLayout>
