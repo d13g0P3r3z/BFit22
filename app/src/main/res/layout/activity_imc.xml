@@ -5,53 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoimc"
+
     tools:context=".ImcActivity">
 
     <TextView
         android:id="@+id/textViewMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000"
-
-
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-34dp" />
+
+
+        android:layout_marginBottom="-34dp"
+        android:background="@null"
+        android:contentDescription="*Coloca tus datos y presiona 2 veces el boton Calcular IMC."
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:text="*Coloca tus datos y presiona 2 veces el boton Calcular IMC." />
 
     <Button
         android:id="@+id/buttonImc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:background="#000"
+        android:layout_marginBottom="1dp"
         android:onClick="calcular"
         android:text="CALCULAR IMC"
-        android:textColor="#FFFFFF" />
+        android:textColor="#000" />
 
-    <TextView
-        android:id="@+id/resultadito"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:textColor="#000"
-
-        android:textSize="15dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="264dp" />
-
-    <TextView
-        android:id="@+id/textimc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-
-        android:layout_centerVertical="true"
-
-        android:layout_marginStart="0dp"
-        android:textColor="#000"
-        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -59,13 +41,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="100dp"
+        android:textColor="#000"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="203dp"
 
         android:text="Coloca tu peso: "
-        android:textColor="#000"
-        android:textSize="15dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView
         android:id="@+id/textView3"
@@ -73,9 +54,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="150dp"
-        android:text="Coloca tu altura en metros: "
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="253dp"
+        android:text="Coloca tu altura: "
         android:textColor="#000"
 
         android:textSize="15dp" />
@@ -89,40 +70,21 @@
         android:layout_marginTop="9dp"
         android:layout_marginEnd="39dp"
 
-        android:text="Coloca tus datos y presiona dos veces el botón"
+
         android:textColor="#000" />
 
 
-    <Switch
-        android:id="@+id/switchSexo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="-7dp"
-        android:layout_marginTop="186dp"
-        android:layout_toEndOf="@+id/textView2"
-        android:text="Hombre" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/switchSexo"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_toEndOf="@+id/switchSexo"
-        android:textColor="#000"
-        android:textSize="15dp"
-        android:text="Mujer" />
-
     <EditText
         android:id="@+id/peso"
-        android:layout_width="167dp"
+        android:layout_width="169dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignBottom="@+id/textView2"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="79dp"
+        android:textColor="#000"
+
+
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignStart="@+id/altura"
+        android:layout_marginStart="-2dp"
+        android:background="@mipmap/vacio"
         android:ems="10"
         android:inputType="numberDecimal" />
 
@@ -130,10 +92,59 @@
         android:id="@+id/altura"
         android:layout_width="167dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView3"
+        android:textColor="#000"
+
+        android:layout_alignBaseline="@+id/textView3"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="-1dp"
+        android:layout_marginEnd="54dp"
+        android:background="@mipmap/vacio"
         android:ems="10"
         android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/peso"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="335dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textimc"
+            android:textColor="#000"
+
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toStartOf="@+id/radioButton"
+            android:text="Hombre" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textimc"
+            android:textColor="#000"
+            android:layout_marginEnd="-60dp"
+            android:layout_marginBottom="-1dp"
+            android:layout_toStartOf="@+id/peso"
+            android:text="Mujer" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/logo" />
+
 
 </RelativeLayout>

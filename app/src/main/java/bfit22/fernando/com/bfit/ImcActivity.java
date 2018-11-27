@@ -33,10 +33,9 @@ public class ImcActivity extends AppCompatActivity {
 
             EditText w = (EditText) findViewById(R.id.peso);
             EditText h = (EditText) findViewById(R.id.altura);
-            TextView a = (TextView) findViewById(R.id.resultadito);
+
             TextView i = (TextView) findViewById(R.id.textimc);
 
-            Switch sex = (Switch) findViewById(R.id.switchSexo);
 
 
             float n = Float.parseFloat(w.getText().toString());
