@@ -6,6 +6,7 @@
     android:background="#FFF"
     android:layout_height="match_parent"
 
+
     tools:context=".PrincipalActivity">
 
     <ScrollView
@@ -74,8 +75,8 @@
 
                 android:layout_alignTop="@+id/buttonImc"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="136dp"
-                android:layout_marginTop="-2dp"
+                android:layout_marginStart="133dp"
+                android:layout_marginTop="-1dp"
                 android:background="@mipmap/rutina"
                 android:text="             "
                 android:textSize="12dp" />
@@ -120,7 +121,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="169dp"
+                android:layout_marginTop="188dp"
                 android:text="¿Quiénes somos?"
                 android:textColor="@color/colorPrimary"
                 android:textSize="22dp" />
@@ -177,13 +178,13 @@
 
             <Button
                 android:id="@+id/button5"
-                android:layout_width="100dp"
-                android:layout_height="30dp"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="159dp"
-                android:layout_marginEnd="22dp"
-                android:background="@mipmap/spinner"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="145dp"
+                android:background="@mipmap/guia"
                 android:text="         " />
 
 
