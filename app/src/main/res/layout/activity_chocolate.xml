@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backfruits"
     tools:context=".Chocolate">
 
     <ImageView
@@ -11,11 +12,9 @@
         android:layout_width="354dp"
         android:layout_height="262dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
         app:srcCompat="@mipmap/chocolate" />
@@ -25,35 +24,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="Chocolate 17g"
-        android:textSize="18sp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="226dp"
+        android:layout_height="143dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="
-        -Calorías 70 kcal \n
-        -Grasas totales 1.8g \n
-        -Colesterol 2.4mg Fibra 0.3g \n
-        -Calcio 13.2mg  \n
-        -Fosfóro 46.2 mg \n
-        -potasio 89.1 mg \n
+        -Calorías 70 kcal
+        -Grasas totales 1.8g
+        -Colesterol 2.4mg Fibra 0.3g
+        -Calcio 13.2mg
+        -Fosfóro 46.2 mg
+        -potasio 89.1 mg
         -Carbohidratos 13g "
+        android:textColor="#000"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 </android.support.constraint.ConstraintLayout>

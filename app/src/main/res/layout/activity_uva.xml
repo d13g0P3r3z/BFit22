@@ -4,19 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backfruits"
     tools:context=".Uva">
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="341dp"
-        android:layout_height="270dp"
+        android:layout_width="263dp"
+        android:layout_height="205dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:srcCompat="@mipmap/uva" />
@@ -24,36 +23,36 @@
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="31dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="Uva 151g"
-        android:textSize="18sp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="202dp"
+        android:layout_height="161dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="
-        -Calorias 105 kcal \n
-        -Grasas totales 0.2g \n
-        -Colesterol 0g \n
-        -Fibra 1.4g \n
-        -Calcio 15.1mg \n
-        -Cobre 0.2mg \n
-        -Hierro 0.5mg \n
+        -Calorias 105 kcal
+        -Grasas totales 0.2g
+        -Colesterol 0g
+        -Fibra 1.4g
+        -Calcio 15.1mg
+        -Cobre 0.2mg
+        -Hierro 0.5mg
         -Carbohidratos 27.3g"
+        android:textColor="#000"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView14" />

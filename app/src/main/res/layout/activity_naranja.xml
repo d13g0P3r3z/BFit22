@@ -4,35 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backfruits"
     tools:context=".Naranja">
-
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="32dp"
-        android:text="Valor nutricional (por 100 gramos):"
-        android:textSize="18sp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:text="Naranja 100 gramos"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="284dp"
-        android:layout_height="179dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="48dp"
         android:text="
-        - Calorías: 42 kcal \n
-        - Grasas totales: 0 g \n
-        - Colesterol: 0 mg  - Fibra: 2 g\n
-        - Vitamina C: 50 mg  - Calcio: 36 mg\n
+        - Calorías: 42 kcal
+        - Grasas totales: 0 g
+        - Colesterol: 0 mg  - Fibra: 2 g
+        - Vitamina C: 50 mg  - Calcio: 36 mg
         - Hidratos de carbono: 8,6 mg  "
+        android:textColor="#000"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 

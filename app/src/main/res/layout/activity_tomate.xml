@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backfruits"
     tools:context=".Tomate">
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="267dp"
-        android:layout_height="271dp"
+        android:layout_width="238dp"
+        android:layout_height="223dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,15 +22,16 @@
     <TextView
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="29dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="Tomate 240g"
-        android:textSize="18sp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,19 +40,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="
-        -Calorias 43 kcal \n
-        -Grasas totales 0.3g \n
-        -Colesterol 0g \n
-        -Fibra 1.7g \n
-        -Calcio 26.4mg \n
-        -Cobre 0.2mg \n
-        -Hierro 1.6mg  \n
+        -Calorias 43 kcal
+        -Grasas totales 0.3g
+        -Colesterol 0g
+        -Fibra 1.7g
+        -Calcio 26.4mg
+        -Cobre 0.2mg
+        -Hierro 1.6mg
         -Carbohidratos 9.6g"
+        android:textColor="#000"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView15" />

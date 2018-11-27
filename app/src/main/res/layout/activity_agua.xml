@@ -5,31 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
+    android:background="@drawable/backfruits"
     tools:context=".Agua">
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="262dp"
-        android:layout_height="256dp"
+        android:layout_width="169dp"
+        android:layout_height="198dp"
         android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
+        android:layout_marginBottom="72dp"
         android:text="
-- Calorías 0g\n
-- Grasas totales 0g\n
-- Colesterol 0g\n
-- Fibra 0g\n
-- Minerales\n
-- Calcio 6mg\n
+- Calorías 0g
+- Grasas totales 0g
+- Colesterol 0g
+- Fibra 0g
+- Minerales
+- Calcio 6mg
 - Cobre 0.1mg
-- Magnesio 2mg\n
-- Zinc 0.1 mg\n
-- Carbohidratos 0g\n
+- Magnesio 2mg
+- Zinc 0.1 mg
+- Carbohidratos 0g
 "
+        android:textColor="#000"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.598"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -37,12 +39,10 @@
         android:layout_width="219dp"
         android:layout_height="188dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="108dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/aguaz" />
@@ -52,18 +52,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Agua 200ml"
-        android:textSize="18sp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.782" />
+        app:layout_constraintVertical_bias="0.895" />
 
 </android.support.constraint.ConstraintLayout>
