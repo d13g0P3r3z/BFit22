@@ -42,7 +42,8 @@
         <activity android:name=".Tomate" />
         <activity android:name=".Uva" />
         <activity android:name=".Sabritas" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activity_chayote"></activity>
     </application>
 
 </manifest>
