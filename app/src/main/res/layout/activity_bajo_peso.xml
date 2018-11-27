@@ -22,12 +22,12 @@
 
             <TextView
                 android:id="@+id/txtTitle"
-                android:layout_width="310dp"
-                android:layout_height="82dp"
+                android:layout_width="307dp"
+                android:layout_height="108dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="13dp"
-                android:text="Plan alimenticio para personas en rango bajo."
+                android:text="Plan alimenticio para personas con un índice inferior al normal:"
                 android:textColor="#000"
                 android:textSize="27dp"
                 android:textStyle="bold" />

@@ -39,7 +39,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="11dp"
-                android:text="Plan alimenticio para personas en rango normal."
+                android:text="Plan alimenticio para personas dentro del rango normal de índices:"
                 android:textColor="#000"
                 android:textSize="27dp"
                 android:textStyle="bold" />

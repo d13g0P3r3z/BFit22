@@ -16,15 +16,17 @@
         app:srcCompat="@mipmap/logo"
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="49dp" />
+
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:ems="10"
-        android:hint="Nombre"
+        android:layout_alignStart="@+id/editTextEmail"
+        android:layout_centerVertical="true"
 
-        />
+        android:ems="10"
+        android:hint="Nombre" />
+
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="wrap_content"
@@ -33,7 +35,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="188dp"
         android:ems="10"
-        android:hint="Correo"
+        android:hint=" Correo electrónico"
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="232dp" />
