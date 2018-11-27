@@ -104,8 +104,8 @@
 
                 android:layout_alignParentTop="true"
                 android:layout_centerVertical="true"
-                android:layout_marginStart="31dp"
-                android:layout_marginTop="223dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="221dp"
                 android:text="En Bfit, somos una empresa comprometida con la salud de nuestros clientes, por ello contamos con los mejores estándares de calidad, seguido de los mejores entrenadores certificados y en constante capacitación para así asegurar que tu entrenamiento con nosotros, sea una de las mejores experiencias en tu día."
 
 
@@ -131,13 +131,12 @@
                 android:id="@+id/imageView8"
                 android:layout_width="421dp"
                 android:layout_height="123dp"
-
-
                 android:layout_below="@+id/textView5"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="15dp"
-                app:srcCompat="@mipmap/pruebita1" />
+                app:srcCompat="@mipmap/pruebita1"
+                />
 
             <TextView
                 android:id="@+id/textView6"
@@ -146,8 +145,8 @@
                 android:layout_alignStart="@+id/textView5"
                 android:layout_alignTop="@+id/textView7"
                 android:layout_centerVertical="true"
-                android:layout_marginStart="-4dp"
-                android:layout_marginTop="55dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="54dp"
                 android:text="Por definición “el entrenamiento funcional” significa entrenar con un propósito, un entrenamiento para que sirva.  Es una metodología de entreno se basa en realizar ejercicios y movimientos que nos ayuden a desempeñar tareas funcionales, de manera que busca esa utilidad para el usuario.  El entrenamiento funcional pretende trabajar los músculos mediante la imitación de nuestra cotidianidad, para ello cada rutina funcional va a estar focalizada para cada persona y sus características concretas."
                 android:textColor="#000" />
 
@@ -174,7 +173,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="9dp"
                 android:layout_marginTop="234dp"
-                app:srcCompat="@mipmap/bfit1" />
+                app:srcCompat="@mipmap/bfit1"
+                android:radius="4dp" />
 
             <Button
                 android:id="@+id/button5"
