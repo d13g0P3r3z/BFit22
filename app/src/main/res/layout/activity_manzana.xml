@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backfruits"
     tools:context=".Manzana">
+
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="270dp"
-        android:layout_height="278dp"
+        android:layout_width="196dp"
+        android:layout_height="224dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
@@ -25,36 +25,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="Manzana 182g"
-        android:textSize="18sp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="193dp"
+        android:layout_height="180dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:autoText="false"
         android:text="
-        -Calorías 95 kcal \n
-        -Grasas totales 0.3g \n
-        -Colesterol 0g\n
-        -Fibra 4.4g \n
-        -Minerales \n
-        -Calcio 10.9mg\n
-        -Cobre 0.1mg\n
-        -Hierro 0.2mg\n
+        -Calorías 95 kcal
+        -Grasas totales 0.3g
+        -Colesterol 0g
+        -Fibra 4.4g
+        -Minerales
+        -Calcio 10.9mg
+        -Cobre 0.1mg
+        -Hierro 0.2mg
         "
+        android:textColor="#000"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 </android.support.constraint.ConstraintLayout>
